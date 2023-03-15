@@ -23,3 +23,19 @@ error: password authentication failed for user "root"
     at Socket.Readable.push (node:internal/streams/readable:234:10)
     at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
 2023-03-15 15:23:23 error: [GET] /index/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client
+2023-03-15 18:08:57 error: uncaughtException: error:1E08010C:DECODER routines::unsupported
+Error: error:1E08010C:DECODER routines::unsupported
+    at Sign.sign (node:internal/crypto/sig:131:29)
+    at Object.sign (C:\CODE\atgit\hrub\node_modules\gtoken\node_modules\jwa\index.js:152:45)
+    at Object.jwsSign [as sign] (C:\CODE\atgit\hrub\node_modules\gtoken\node_modules\jws\lib\sign-stream.js:32:24)
+    at GoogleToken.requestToken (C:\CODE\atgit\hrub\node_modules\gtoken\build\src\index.js:232:31)
+    at GoogleToken.getTokenAsyncInner (C:\CODE\atgit\hrub\node_modules\gtoken\build\src\index.js:166:21)
+    at GoogleToken.getTokenAsync (C:\CODE\atgit\hrub\node_modules\gtoken\build\src\index.js:145:55)
+    at GoogleToken.getToken (C:\CODE\atgit\hrub\node_modules\gtoken\build\src\index.js:97:21)
+    at JWT.refreshTokenNoCache (C:\CODE\atgit\hrub\node_modules\google-auth-library\build\src\auth\jwtclient.js:172:36)
+    at JWT.refreshToken (C:\CODE\atgit\hrub\node_modules\google-auth-library\build\src\auth\oauth2client.js:153:24)
+    at JWT.getRequestMetadataAsync (C:\CODE\atgit\hrub\node_modules\google-auth-library\build\src\auth\oauth2client.js:298:28)
+2023-03-15 18:31:19 error: uncaughtException: Cannot read properties of undefined (reading 'length')
+TypeError: Cannot read properties of undefined (reading 'length')
+    at Function.getBlogs (C:\CODE\atgit\hrub\src\services\google.service.ts:54:33)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
