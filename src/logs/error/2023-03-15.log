@@ -1,0 +1,25 @@
+2023-03-15 09:50:09 error: uncaughtException: password authentication failed for user "root"
+error: password authentication failed for user "root"
+    at Parser.parseErrorMessage (C:\CODE\atgit\hrub\hrub\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\CODE\atgit\hrub\hrub\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\CODE\atgit\hrub\hrub\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\CODE\atgit\hrub\hrub\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-03-15 15:16:12 error: uncaughtException: password authentication failed for user "root"
+error: password authentication failed for user "root"
+    at Parser.parseErrorMessage (C:\CODE\atgit\hrub\node_modules\pg-protocol\src\parser.ts:369:69)
+    at Parser.handlePacket (C:\CODE\atgit\hrub\node_modules\pg-protocol\src\parser.ts:188:21)
+    at Parser.parse (C:\CODE\atgit\hrub\node_modules\pg-protocol\src\parser.ts:103:30)
+    at Socket.<anonymous> (C:\CODE\atgit\hrub\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-03-15 15:23:23 error: [GET] /index/ >> StatusCode:: 500, Message:: Cannot set headers after they are sent to the client

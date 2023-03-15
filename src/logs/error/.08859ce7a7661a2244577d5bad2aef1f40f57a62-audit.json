@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\CODE\\atgit\\hrub\\src\\logs\\error\\.08859ce7a7661a2244577d5bad2aef1f40f57a62-audit.json",
+    "files": [
+        {
+            "date": 1678873572371,
+            "name": "C:\\CODE\\atgit\\hrub\\src\\logs\\error\\2023-03-15.log",
+            "hash": "8387e28c7d07ac825f208e80f3f7c4b3fe87dfe3133316ef7cd4a30abe04e87d"
+        }
+    ],
+    "hashType": "sha256"
+}
