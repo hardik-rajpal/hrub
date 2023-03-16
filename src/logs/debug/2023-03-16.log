@@ -10,3 +10,97 @@
 2023-03-16 17:00:00 info: [0mGET /favicon.ico [33m404[0m 3.870 ms - 150[0m
 2023-03-16 17:00:01 info: [0mGET /favicon.ico [33m404[0m 2.238 ms - 150[0m
 2023-03-16 17:00:02 info: [0mGET /favicon.ico [33m404[0m 0.964 ms - 150[0m
+2023-03-16 20:03:05 info: =================================
+2023-03-16 20:03:05 info: ======= ENV: development =======
+2023-03-16 20:03:05 info: 🚀 App listening on the port 3000
+2023-03-16 20:03:05 info: =================================
+2023-03-16 20:03:17 info: [0mGET /blogposts?docid=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [33m404[0m 6.469 ms - 148[0m
+2023-03-16 20:03:17 info: [0mGET /favicon.ico [33m404[0m 1.830 ms - 150[0m
+2023-03-16 20:03:19 info: [0mGET /favicon.ico [33m404[0m 1.426 ms - 150[0m
+2023-03-16 20:03:29 info: [0mGET /gapis/blogposts?docid=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [32m200[0m 4111.968 ms - -[0m
+2023-03-16 20:03:29 info: [0mGET /favicon.ico [33m404[0m 1.867 ms - 150[0m
+2023-03-16 20:03:30 info: [0mGET /favicon.ico [33m404[0m 1.042 ms - 150[0m
+2023-03-16 20:03:31 info: [0mGET /favicon.ico [33m404[0m 0.908 ms - 150[0m
+2023-03-16 20:03:44 info: =================================
+2023-03-16 20:03:44 info: ======= ENV: development =======
+2023-03-16 20:03:44 info: 🚀 App listening on the port 3000
+2023-03-16 20:03:44 info: =================================
+2023-03-16 20:03:52 info: [0mGET /gapis/blogposts?docid=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [36m304[0m 4012.162 ms - -[0m
+2023-03-16 20:03:52 info: [0mGET /favicon.ico [33m404[0m 2.884 ms - 150[0m
+2023-03-16 20:03:54 info: [0mGET /favicon.ico [33m404[0m 1.451 ms - 150[0m
+2023-03-16 20:04:14 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [32m200[0m 3255.109 ms - -[0m
+2023-03-16 20:04:15 info: [0mGET /favicon.ico [33m404[0m 1.422 ms - 150[0m
+2023-03-16 20:04:16 info: [0mGET /favicon.ico [33m404[0m 1.188 ms - 150[0m
+2023-03-16 20:04:25 info: =================================
+2023-03-16 20:04:25 info: ======= ENV: development =======
+2023-03-16 20:04:25 info: 🚀 App listening on the port 3000
+2023-03-16 20:04:25 info: =================================
+2023-03-16 20:05:45 error: [GET] /gapis/blogposts >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'toString')
+2023-03-16 20:05:45 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [31m500[0m 13.372 ms - 70[0m
+2023-03-16 20:05:45 info: [0mGET /favicon.ico [33m404[0m 5.065 ms - 150[0m
+2023-03-16 20:05:46 info: [0mGET /favicon.ico [33m404[0m 1.490 ms - 150[0m
+2023-03-16 20:05:54 info: =================================
+2023-03-16 20:05:54 info: ======= ENV: development =======
+2023-03-16 20:05:54 info: 🚀 App listening on the port 3000
+2023-03-16 20:05:54 info: =================================
+2023-03-16 20:06:13 info: =================================
+2023-03-16 20:06:13 info: ======= ENV: development =======
+2023-03-16 20:06:13 info: 🚀 App listening on the port 3000
+2023-03-16 20:06:13 info: =================================
+2023-03-16 20:06:15 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [32m200[0m 829.850 ms - 244[0m
+2023-03-16 20:06:15 info: [0mGET /favicon.ico [33m404[0m 4.697 ms - 150[0m
+2023-03-16 20:06:17 info: [0mGET /favicon.ico [33m404[0m 1.157 ms - 150[0m
+2023-03-16 20:08:15 info: =================================
+2023-03-16 20:08:15 info: ======= ENV: development =======
+2023-03-16 20:08:15 info: 🚀 App listening on the port 3000
+2023-03-16 20:08:15 info: =================================
+2023-03-16 20:08:32 info: =================================
+2023-03-16 20:08:32 info: ======= ENV: development =======
+2023-03-16 20:08:32 info: 🚀 App listening on the port 3000
+2023-03-16 20:08:32 info: =================================
+2023-03-16 20:08:42 info: =================================
+2023-03-16 20:08:42 info: ======= ENV: development =======
+2023-03-16 20:08:42 info: 🚀 App listening on the port 3000
+2023-03-16 20:08:42 info: =================================
+2023-03-16 20:08:47 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [32m200[0m 1055.682 ms - 208[0m
+2023-03-16 20:08:47 info: [0mGET /favicon.ico [33m404[0m 5.949 ms - 150[0m
+2023-03-16 20:08:48 info: [0mGET /favicon.ico [33m404[0m 1.243 ms - 150[0m
+2023-03-16 20:08:55 info: =================================
+2023-03-16 20:08:55 info: ======= ENV: development =======
+2023-03-16 20:08:55 info: 🚀 App listening on the port 3000
+2023-03-16 20:08:55 info: =================================
+2023-03-16 20:10:47 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [36m304[0m 999.254 ms - -[0m
+2023-03-16 20:10:54 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [36m304[0m 490.741 ms - -[0m
+2023-03-16 20:11:11 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [36m304[0m 503.265 ms - -[0m
+2023-03-16 20:11:26 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [36m304[0m 503.951 ms - -[0m
+2023-03-16 20:11:31 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [36m304[0m 542.197 ms - -[0m
+2023-03-16 20:11:34 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [36m304[0m 496.781 ms - -[0m
+2023-03-16 20:12:30 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [36m304[0m 550.672 ms - -[0m
+2023-03-16 20:13:26 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [36m304[0m 664.914 ms - -[0m
+2023-03-16 20:14:48 info: [0mGET /gapis/blogposts?id=10vybzvl1om3zWx9e2SgE_0D_m6PdtB8j [36m304[0m 495.249 ms - -[0m
+2023-03-16 20:14:48 info: [0mGET /favicon.ico [33m404[0m 3.237 ms - 150[0m
+2023-03-16 20:14:49 info: [0mGET /favicon.ico [33m404[0m 1.731 ms - 150[0m
+2023-03-16 20:16:09 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [32m200[0m 487.506 ms - 302[0m
+2023-03-16 20:18:52 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [32m200[0m 598.183 ms - 302[0m
+2023-03-16 20:19:11 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [32m200[0m 512.331 ms - 302[0m
+2023-03-16 20:19:22 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [32m200[0m 650.257 ms - 302[0m
+2023-03-16 20:19:27 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [32m200[0m 782.715 ms - 302[0m
+2023-03-16 20:19:47 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [32m200[0m 505.131 ms - 302[0m
+2023-03-16 20:20:14 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [32m200[0m 575.218 ms - 302[0m
+2023-03-16 20:21:07 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [32m200[0m 574.029 ms - 302[0m
+2023-03-16 20:21:38 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [32m200[0m 493.988 ms - 302[0m
+2023-03-16 20:22:04 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [32m200[0m 837.308 ms - 302[0m
+2023-03-16 20:22:25 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 551.867 ms - -[0m
+2023-03-16 20:23:12 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 519.990 ms - -[0m
+2023-03-16 20:23:24 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 496.333 ms - -[0m
+2023-03-16 20:23:31 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 500.306 ms - -[0m
+2023-03-16 20:23:40 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 487.411 ms - -[0m
+2023-03-16 20:23:41 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 497.856 ms - -[0m
+2023-03-16 20:24:31 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 507.382 ms - -[0m
+2023-03-16 20:24:42 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 506.405 ms - -[0m
+2023-03-16 20:24:53 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 491.236 ms - -[0m
+2023-03-16 20:25:10 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 506.040 ms - -[0m
+2023-03-16 20:25:23 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 501.000 ms - -[0m
+2023-03-16 20:25:46 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 509.603 ms - -[0m
+2023-03-16 20:25:57 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [36m304[0m 479.333 ms - -[0m
+2023-03-16 20:29:34 info: [0mGET /gapis/blogposts?id=1Amd8tns63RBEVbLH461KxAZtB05gFNXe [32m200[0m 535.289 ms - 302[0m
