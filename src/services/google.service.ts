@@ -17,6 +17,7 @@ const FOLDER_ID = BLOGS_FOLDER_ID;
 export interface blogPost{
     title:string;
     publishedLink:string;
+    docId:string;
     tags:string[]
     summary:string;
 }
@@ -60,12 +61,14 @@ class GoogleService {
                 title:file.name,
                 summary:summary,
                 publishedLink:this.getPublishedLink(file.id),
-                tags:tags
+                tags:tags,
+                docId:file.id
             }
             if (file.mimeType === 'application/vnd.google-apps.shortcut') {
                 const shortcutDetailsResponse = await drive.files.get(params)
                     // console.log(response.data.shortcutDetails)
                 const targetId = shortcutDetailsResponse.data.shortcutDetails.targetId;
+                blogpost.docId = targetId;
                 blogpost.publishedLink = this.getPublishedLink(targetId);
             }
             allBlogPosts.push(blogpost)
