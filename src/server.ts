@@ -6,7 +6,7 @@ import GoogleRoute from './routes/google.route';
 validateEnv();
 
 const app = new App([
-    new IndexRoute('/index'),
+    new IndexRoute('/'),
     new GoogleRoute('/gapis')
 ]);
 
