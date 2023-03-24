@@ -9,7 +9,7 @@ export class Counter {
     name: string
 
     @Column({default:''})
-    description3: string;
+    description8: string;
 
     @Column({default:0})
     count: number
