@@ -1,4 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column } from "typeorm"
+import { Entity, PrimaryGeneratedColumn, Column, UpdateDateColumn } from "typeorm"
 
 @Entity()
 export class Counter {
@@ -9,11 +9,14 @@ export class Counter {
     name: string
 
     @Column({default:''})
-    description8: string;
+    description: string;
 
     @Column({default:0})
     count: number
 
     @Column({default:false})
     paused: boolean
+
+    @UpdateDateColumn()
+    lastTouch: Date
 }

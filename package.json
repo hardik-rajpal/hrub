@@ -16,7 +16,8 @@
     "deploy:dev": "pm2 start ecosystem.config.js --only dev",
     "typeorm:cli": "ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli -f ./src/databases/migration.ts",
     "migration-generate": "ts-node ./node_modules/typeorm/cli.js migration:generate --config ./src/databases/ormconfig.ts --pretty",
-    "migration-show": "ts-node ./node_modules/typeorm/cli.js migration:show --config ./src/databases/ormconfig.ts"
+    "migration-show": "ts-node ./node_modules/typeorm/cli.js migration:show --config ./src/databases/ormconfig.ts",
+    "migration-run":"ts-node ./node_modules/typeorm/cli.js migration:run --config ./src/databases/ormconfig.ts"
   },
   "dependencies": {
     "@types/dotenv": "^8.2.0",
